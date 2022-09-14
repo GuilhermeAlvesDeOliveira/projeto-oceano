@@ -1,0 +1,185 @@
+@charset "UTF-8";
+@font-face {
+    font-family: "principal";
+    src: url(font/WaterSplash.ttf);
+}
+@font-face {
+    font-family: "paragrafo";
+    src: url(font/Bondrians.otf);
+}
+*{
+    padding: -1px;
+    margin: 0px;
+
+}
+
+body {
+    background-color: var(--cordefundo);
+    font-family: var(--fonte-padrao);
+    padding: 5px;
+}
+
+:root {
+    --cordefundo:       #8FD9D9;
+    --cordefundotitulo: #030f26;
+    --cordetitulo:      #023E73;
+    --cordocabecario:   #049DBF;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-principal:  "principal";
+    --fonte-paragrafo: "paragrafo";
+}
+
+header {
+    background-color: var(--cordefundotitulo);
+    text-align: center;
+    max-width: 460px;
+    min-width: 320px;
+    margin: auto;
+    padding: 22px;
+    border-radius: 50%;
+    
+}
+
+header h1 {
+    color: var(--cordefundo);
+    font-family: var(--fonte-principal); 
+}
+
+header.caixa01 {
+    background-color: var(--cordocabecario);
+    width: 65%;
+    margin: auto;
+    border-radius: 15px;
+}
+
+nav {
+    background-color: var(--cordocabecario);
+    text-align: center;
+    width: 250px;
+    height: 30px;
+    padding: 17px;
+    border-radius: 50%;
+    margin-top: 20px; 
+    margin-left: 25px;   
+}
+
+nav a {
+    color: black;
+    font-family: var(--fonte-principal);
+    text-decoration: none;
+    margin-right: 51px;
+    margin-left: 30px;
+    transition-duration: 5s;
+}
+
+nav a:hover {
+    border-radius: 15px;
+    background-image: linear-gradient(to left, #8FD9D9, #049DBF, #023E73);
+    color: white;
+}
+
+main {
+    font-family: var(--fonte-paragrafo);
+    background-color: white;
+    max-width: 800px;
+    min-width: 300px;
+    margin: auto;
+    padding: 20px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+   
+}
+
+main aside {
+    background-color: var(--cordocabecario);
+    padding: 15px;
+    margin: 16px;
+    border-radius: 7px;
+}
+main img {
+   width: 100%; 
+   border-radius: 8px;
+   padding-bottom: 8px;
+}
+
+main strong {
+   color: var(--cordocabecario);
+   background-color: var(--cordetitulo);
+}
+
+.subtitulo {
+    background-color: white;
+    max-width: 235px;
+    min-width: 150px;
+    height: 68px; 
+    margin-left: 189px;
+    margin-top: 45px;
+    margin-bottom: 8px;
+    padding: 27px;
+    border-radius: 135%;
+}
+header h2 {
+    max-width: 250px;
+    min-width: 1px;
+    font-size: 21px;
+    font-family: var(--fonte-principal);
+    height: 1px;
+    margin: -3px 0px;
+    text-align: center;
+}
+
+p {
+    font-family: var(--fonte-paragrafo);
+}
+
+.caixatitanoboa {
+    text-align: center;
+    width: 100%;
+    margin-top: -67px;
+    margin-bottom: -38px;
+}
+
+.caixaictossaur {
+    text-align: end;
+    margin: auto;
+    width: 100%;
+    padding-bottom: 0px;
+}
+
+.curiosmegalon{
+    background-color: white;
+    width: 350px;
+    margin: -36px 0px 37px 11px;
+    border-radius: 10px;
+    padding: 11px;
+}
+.curiostitanoboa{
+    background-color: white;
+    max-width: 350px;
+    min-width: none;
+    margin: auto;
+    border-radius: 10px;
+    padding: 11px;
+}
+
+.curiosictossaur {
+    background-color: white;
+    width: 350px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 11px;
+}
+
+footer {
+    background-color: var(--cordocabecario);
+    text-align: center;
+    height: 30px;
+    padding: 0px 0px;
+    margin: 31px -5px -4px -5px;
+}
+
+
+.teste{
+    width: 100%;
+}
